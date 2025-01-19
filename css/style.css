@@ -5158,7 +5158,7 @@ form.form-dark .form-control:focus {
 .header-default.header-absolute {
     position: absolute;
     left: 0;
-    background: transparent;
+    background: #000000;
 }
 
 .header-default .header-inner {
@@ -5215,7 +5215,6 @@ form.form-dark .form-control:focus {
 .header-default .site-menu .main-menu .nav-item.active>a:before,
 .header-default .site-menu .main-menu .nav-item:hover>a:before {
     content: "";
-    background-image: url(.././images/menu-hover.png);
     height: 8px;
     position: absolute;
     bottom: 0;
@@ -5318,7 +5317,7 @@ form.form-dark .form-control:focus {
 .header-2.header-absolute {
     position: absolute;
     left: 0;
-    background: transparent;
+    background: #000000;
 }
 
 .header-2 .header-inner {
@@ -5390,7 +5389,6 @@ form.form-dark .form-control:focus {
     bottom: 0;
     opacity: 0.05;
     z-index: -1;
-    background-image: url(".././images/bg/overlay-bg.png");
     background-size: cover;
 }
 
@@ -5960,8 +5958,6 @@ form.form-dark .form-control:focus {
 /*---------------------------------*/
 
 .inner-header {
-    position: relative;
-    z-index: 5;
     height: 450px;
     display: flex;
     align-items: center;
